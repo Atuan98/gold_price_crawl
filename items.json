@@ -1,0 +1,612 @@
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63000, "sellPrice": 65000}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 51950, "sellPrice": 52850}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 51950, "sellPrice": 52950}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 51850, "sellPrice": 52450}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50631, "sellPrice": 51931}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37491, "sellPrice": 39491}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28731, "sellPrice": 30731}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20024, "sellPrice": 22024}
+{"area": "HN", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020}
+{"area": "NT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020}
+{"area": "CM", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020}
+{"area": "HUE", "type": "SJC", "buyPrice": 62970, "sellPrice": 65030}
+{"area": "BP", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020}
+{"area": "BH", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000}
+{"area": "MT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000}
+{"area": "LX", "type": "SJC", "buyPrice": 63020, "sellPrice": 65050}
+{"area": "BL", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020}
+{"area": "PR", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020}
+{"area": "HL", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "MT", "type": "SJC", "buyPrice": "62.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 51950, "sellPrice": 52850, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 51950, "sellPrice": 52950, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 51850, "sellPrice": 52450, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50631, "sellPrice": 51931, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37491, "sellPrice": 39491, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28731, "sellPrice": 30731, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20024, "sellPrice": 22024, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 62970, "sellPrice": 65030, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63020, "sellPrice": 65050, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "MT", "type": "SJC", "buyPrice": "62.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 51950, "sellPrice": 52850, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 51950, "sellPrice": 52950, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 51850, "sellPrice": 52450, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50631, "sellPrice": 51931, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37491, "sellPrice": 39491, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28731, "sellPrice": 30731, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20024, "sellPrice": 22024, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 62970, "sellPrice": 65030, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63000, "sellPrice": 65000, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63020, "sellPrice": 65050, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63000, "sellPrice": 65020, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 62980, "sellPrice": 65020, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "MT", "type": "SJC", "buyPrice": "62.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "MT", "type": "SJC", "buyPrice": "62.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "MT", "type": "SJC", "buyPrice": "62.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:38:31 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": " 19/07/2022 15:39:41 "}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": " 19/07/2022 16:13:42 "}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": " 19/07/2022 15:35:27 "}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150, "date_time": null}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250, "date_time": null}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750, "date_time": null}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228, "date_time": null}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716, "date_time": null}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906, "date_time": null}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149, "date_time": null}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330, "date_time": null}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300, "date_time": null}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350, "date_time": null}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320, "date_time": null}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320, "date_time": null}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC 1L-10L", "buyPrice": 63300, "sellPrice": 65300}
+{"area": "HCM", "type": "VN SJC 125", "buyPrice": 52250, "sellPrice": 53150}
+{"area": "HCM", "type": "VN SJC 9999 0.5", "buyPrice": 52250, "sellPrice": 53250}
+{"area": "HCM", "type": "VNT 9999", "buyPrice": 52150, "sellPrice": 52750}
+{"area": "HCM", "type": "VNT 99", "buyPrice": 50928, "sellPrice": 52228}
+{"area": "HCM", "type": "VNT 75", "buyPrice": 37716, "sellPrice": 39716}
+{"area": "HCM", "type": "VNT 583", "buyPrice": 28906, "sellPrice": 30906}
+{"area": "HCM", "type": "VNT 417", "buyPrice": 20149, "sellPrice": 22149}
+{"area": "HN", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320}
+{"area": "Đà  Nẵng", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320}
+{"area": "NT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320}
+{"area": "CM", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320}
+{"area": "HUE", "type": "SJC", "buyPrice": 63270, "sellPrice": 65330}
+{"area": "BP", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320}
+{"area": "BH", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300}
+{"area": "MT", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300}
+{"area": "Quãng Ngãi", "type": "SJC", "buyPrice": 63300, "sellPrice": 65300}
+{"area": "LX", "type": "SJC", "buyPrice": 63320, "sellPrice": 65350}
+{"area": "BL", "type": "SJC", "buyPrice": 63300, "sellPrice": 65320}
+{"area": "Quy Nhơn", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320}
+{"area": "PR", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320}
+{"area": "HL", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320}
+{"area": "Quảng Nam", "type": "SJC", "buyPrice": 63280, "sellPrice": 65320}
+{"area": "HCM", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HCM", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "HN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "HN", "type": "SJC", "buyPrice": "62.500", "sellPrice": "65.000", "date_time": "2022-07-19T15:39:41.000000"}
+{"area": "DN", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "DN", "type": "SJC", "buyPrice": "63.000", "sellPrice": "65.000", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "MT", "type": "PNJ", "buyPrice": "51.800", "sellPrice": "52.900", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "MT", "type": "SJC", "buyPrice": "63.300", "sellPrice": "65.500", "date_time": "2022-07-19T16:13:42.000000"}
+{"area": "GVNT", "type": "NPNJ 24K", "buyPrice": "51.800", "sellPrice": "52.800", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 24K", "buyPrice": "51.400", "sellPrice": "52.200", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 18K", "buyPrice": "37.900", "sellPrice": "39.300", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 14K", "buyPrice": "29.290", "sellPrice": "30.690", "date_time": "2022-07-19T15:35:27.000000"}
+{"area": "GVNT", "type": "NT 10K", "buyPrice": "20.470", "sellPrice": "21.870", "date_time": "2022-07-19T15:35:27.000000"}
