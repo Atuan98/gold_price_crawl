@@ -2,6 +2,8 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.spiders import XMLFeedSpider
 from spiders.mapping_data import get_area_name_code, get_type_gold_code
 import time
+from datetime import datetime
+
 
 class SjcGoldSpider(XMLFeedSpider):
     FEED_EXPORT_ENCODING = 'utf-8'
@@ -17,16 +19,19 @@ class SjcGoldSpider(XMLFeedSpider):
         return int(txt.replace('.', ''))
 
     def parse_node(self, response, selector):
-        print(selector)
-        for ratelist in selector:
-            city = ratelist.xpath("@name").get()
-            items = ratelist.xpath('//item')
+        update_time = selector.xpath("@updated").get()
+        update_time = datetime.strptime(update_time.strip(), '%I:%M:%S %p %d/%m/%Y')
+        update_time = datetime.strftime(update_time, '%Y-%m-%dT%H:%M:%S.%f%z')
+        tag_city = selector.xpath("//city")
+        for city in tag_city:
+            city_name = city.xpath('@name').get()
+            items = city.xpath(".//item")
             for item in items:
                 record = {
-                        'area': get_area_name_code(city),
-                        'type': get_type_gold_code(item.xpath('@type').get()),
-                        'buyPrice': self.number(item.xpath('@buy').get()),
-                        'sellPrice': self.number(item.xpath('@sell').get()),
-                        # 'date_time': update_time
-                    }
+                    'area': get_area_name_code(city_name),
+                    'type': get_type_gold_code(item.xpath('@type').get()),
+                    'buyPrice': self.number(item.xpath('@buy').get()),
+                    'sellPrice': self.number(item.xpath('@sell').get()),
+                    'date_time': update_time
+                }
                 yield record

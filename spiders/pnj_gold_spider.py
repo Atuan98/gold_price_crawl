@@ -6,7 +6,7 @@ from datetime import datetime
 class PnjGoldSpider(Spider):
     FEED_EXPORT_ENCODING = 'utf-8'
     name = "pnj-gold-spider"
-    allowed_domains = ["pnj.com.vn/"]
+    allowed_domains = ["pnj.com.vn"]
     start_urls = [
             "https://giavang.pnj.com.vn",
         ]
