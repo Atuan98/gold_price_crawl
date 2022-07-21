@@ -1,7 +1,9 @@
 from scrapy import Spider
 from scrapy.selector import Selector
+import re
 from spiders.mapping_data import get_area_name_code, get_type_gold_code
 from datetime import datetime
+
 
 class DojiGoldSpider(Spider):
     FEEDD_EXPORT_ENCODING = 'utf-8'
@@ -11,26 +13,26 @@ class DojiGoldSpider(Spider):
             "http://giavang.doji.vn/",
         ]
 
+    def number(self, txt):
+        return int(txt.replace(',', ''))
+
     def parse(self, response):
         ant_home = Selector(response).xpath("//*[@class = 'ant-home-price']")
-        update_time = ant_home.xpath(".//p/span/text()").get().split(" ")[3:]
-        update_time = ' '.join([elem for elem in update_time])
-        update_time = datetime.strptime(update_time.strip(), '%H:%M %d/%m/%Y')
-        update_time = datetime.strftime(update_time, '%Y-%m-%dT%H:%M:%S.%f%z')
+        update_time = ant_home.xpath("//p/span[contains(@class, 'update-time')]/text()").get()
+        update_time = ' '.join(re.findall("(\d{2}:\d{2})\s(\d{2}\/\d{2}\/\d{4})", update_time)[0])
+        update_time = datetime.strptime(update_time, '%H:%M %d/%m/%Y')
         rows = ant_home.xpath(".//table/tbody/tr")
         for row in rows:
             start_col = 0
             cell = row.xpath(".//text()").getall()
-            title = cell[start_col].split(" ")
-            if len(title) == 2:
-                type = title[0]
-                area = title[1]
-            elif len(title) == 5:
-                type = cell[start_col].split("-")[0]
-                area = cell[start_col].split("-")[1]
-            elif len(title) == 3:
-                type = title[0]
-                area = title[1] + " " + title[2]
+            split_symbol_hyphen = cell[start_col].split("-")
+            split_symbol_whitespace = cell[start_col].split(" ")
+            if len(split_symbol_hyphen) > 1 :
+                area = split_symbol_hyphen[0]
+                type = split_symbol_hyphen[1]
+            elif len(split_symbol_whitespace) > 1:
+                area = split_symbol_whitespace[0]
+                type = split_symbol_whitespace[1]
 
             start_col += 1
             area = get_area_name_code(area)
@@ -44,8 +46,9 @@ class DojiGoldSpider(Spider):
             record = {
                 'area': area,
                 'type': type,
-                'buyPrice': buy_price,
-                'sellPrice': sell_price,
-                'date_time': update_time
+                'buyPrice': self.number(buy_price),
+                'sellPrice': self.number(sell_price),
+                'date_time': update_time,
+                'website': self.allowed_domains[0]
             }
             yield record

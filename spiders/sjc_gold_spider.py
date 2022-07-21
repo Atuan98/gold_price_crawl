@@ -21,7 +21,7 @@ class SjcGoldSpider(XMLFeedSpider):
     def parse_node(self, response, selector):
         update_time = selector.xpath("@updated").get()
         update_time = datetime.strptime(update_time.strip(), '%I:%M:%S %p %d/%m/%Y')
-        update_time = datetime.strftime(update_time, '%Y-%m-%dT%H:%M:%S.%f%z')
+        print(update_time)
         tag_city = selector.xpath("//city")
         for city in tag_city:
             city_name = city.xpath('@name').get()
@@ -32,6 +32,7 @@ class SjcGoldSpider(XMLFeedSpider):
                     'type': get_type_gold_code(item.xpath('@type').get()),
                     'buyPrice': self.number(item.xpath('@buy').get()),
                     'sellPrice': self.number(item.xpath('@sell').get()),
-                    'date_time': update_time
+                    'date_time': update_time,
+                    'website': self.allowed_domains[0]
                 }
                 yield record

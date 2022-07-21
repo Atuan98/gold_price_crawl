@@ -3,7 +3,7 @@ def get_area_name_code(area_name) -> str:
         area_name = 'HCM'
     if area_name in ['Hà Nội', 'HN', 'Hanoi', 'Ha Noi']:
         area_name = 'HN'
-    if area_name in ['Đà Nẵng', 'Đà Nẵng', 'Danang', 'ĐN', 'DN']:
+    if area_name in ['Đà Nẵng', 'Đà  Nẵng', 'Danang', 'ĐN', 'DN']:
         area_name = 'DN'
     if area_name in ['Huế', 'Hue', 'HUẾ', 'HUE']:
         area_name = 'HUE'
@@ -13,26 +13,26 @@ def get_area_name_code(area_name) -> str:
         area_name = 'BH'
     if area_name in ['Miền Tây', 'Mien Tay', 'MT']:
         area_name = 'MT'
-    if area_name in ['Quảng Ngãi', 'Quang Ngai', 'QN']:
-        area_name = 'QN'
+    if area_name in ['Quảng Ngãi', 'Quãng Ngãi','Quang Ngai', 'QN']:
+        area_name = 'QUANGNGAI'
     if area_name in ['Long Xuyên', 'Long Xuyen', 'LX']:
         area_name = 'LX'
     if area_name in ['Bạc Liêu', 'Bac Lieu', 'BL']:
         area_name = 'BL'
     if area_name in ['Quy Nhơn', 'Quy Nhon']:
-        area_name = 'Quy Nhơn'
+        area_name = 'QUYNHON'
     if area_name in ['Phan Rang', 'PP']:
         area_name = 'PR'
     if area_name in ['Hạ Long', 'Ha Long', 'HL']:
         area_name = 'HL'
     if area_name in ['Quảng Nam', 'Quang Nam']:
-        area_name = 'Quảng Nam'
+        area_name = 'QUANGNAM'
     if area_name in ['Nha Trang', 'NT']:
         area_name = 'NT'
+    if area_name in ['Cần Thơ', 'Can Tho']:
+        area_name = 'CT'
     if area_name in ['Cà Mau', 'Ca Mau', 'CM']:
         area_name = 'CM'
-    if area_name in ['Quảng Nam', 'Quang Nam']:
-        area_name = 'Quảng Nam'
     if area_name in ['Giá vàng nữ trang', 'Gia vang nu trang', 'GVNT']:
         area_name = 'GVNT'
     return area_name
@@ -67,4 +67,11 @@ def get_type_gold_code(type_name) -> str:
         type_name = 'NT 14K'
     if type_name in ['Nữ trang 10K']:
         type_name = 'NT 10K'
+    if type_name in ['Nguyên liêu 9999 - HN', 'Nguyên liêu 9999 ', 'Nguyên liêu 9999']:
+        type_name = 'NL9999-HN'
+    if type_name in ['Nguyên liêu 999 - HN', 'Nguyên liêu 999 ', 'Nguyên liêu 999']:
+        type_name = 'NL999-HN'
+    if type_name in ['AVPL/SJC Cần Thơ']:
+        type_name = 'AVPL/SJC CT'
+
     return type_name

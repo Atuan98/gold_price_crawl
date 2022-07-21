@@ -10,6 +10,10 @@ class PnjGoldSpider(Spider):
     start_urls = [
             "https://giavang.pnj.com.vn",
         ]
+
+    def number(self, txt):
+        return int(txt.replace('.', ''))
+
     def parse(self, response):
         portlet = Selector(response).xpath("//*[starts-with(@id, 'portlet_com_pnj_gold_price_web_ViewGoldPricePortlet_INSTANCE')]")
         rows = portlet.xpath('.//table/tbody/tr')
@@ -36,12 +40,12 @@ class PnjGoldSpider(Spider):
             start_col += 1
             update_time = cells[start_col]
             update_time = datetime.strptime(update_time.strip(), '%d/%m/%Y %H:%M:%S')
-            update_time = datetime.strftime(update_time, '%Y-%m-%dT%H:%M:%S.%f%z')
             record = {
                 'area': area,
                 'type': type,
-                'buyPrice': buy_price,
-                'sellPrice': sell_price,
-                'date_time': update_time
+                'buyPrice': self.number(buy_price),
+                'sellPrice': self.number(sell_price),
+                'date_time': update_time,
+                'website': self.allowed_domains[0]
             }
             yield record

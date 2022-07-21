@@ -1,50 +1,64 @@
-
-class JsonWriterPipeline(object):
-   def __init__(self):
-      self.file = open('items.json', 'w+', encoding='utf-8')
-
-   def process_item(self, item, spider):
-      line = json.dumps(dict(item), ensure_ascii=False) + "\n"
-      self.file.write(line)
-      return item# ITEM_PIPELINES = {
-#     'myproject.pipelines.PricePipeline': 300,
-#     'myproject.pipelines.JsonWriterPipeline': 800,
-# }
-
-from itemadapter import ItemAdapter
-import sqlite3
+import pymongo
+from scrapy.exceptions import DropItem
 
 
-class ScrapyTutorialPipeline(object):
- 
-# init method to initialize the database
-# and create connection and tables
+class MongoDBPipeline(object):
+
     def __init__(self):
-        self.create_conn()
-        self.create_table()
-     
-    # create connection method to create
-    # database or use database to store scraped data
-    def create_conn(self):
-        self.conn = sqlite3.connect("mydata.db")
-        self.curr = self.conn.cursor()
- 
-    # Create table method
-    # using SQL commands to create table
-    def create_table(self):
-        self.curr.execute("""DROP TABLE IF EXISTS prices""")
-        self.curr.execute("""create table prices(
-                        City TEXT, Type TEXT, Buy_Price INTEGER, Sell_Price INTEGER
-                        )""")
-         
-# store items to databases.
+        client = pymongo.MongoClient('localhost', 27017)
+        crawl_db = client['gold_price']
+        self.collection_daily_price = crawl_db["daily_price"]
+        self.collection_area = crawl_db["area"]
+        self.collection_type_gold = crawl_db["type_gold"]
+        self.collection_realtime_price = crawl_db["realtime_price"]
+
     def process_item(self, item, spider):
-        print(item)
-        # self.putitemsintable(item)
+        valid = True
+        for data in item:
+            if not data:
+                valid = False
+                raise DropItem("Missing {0}!".format(data))
+        if valid:
+            record_realtime = item
+            current_item_realtime = self.collection_realtime_price.find_one({"area": record_realtime["area"], "type": record_realtime["type"],
+                                                                      "website": record_realtime["website"]},
+                                                                     sort= [("date_time", pymongo.DESCENDING)], limit = 1)
+            if current_item_realtime is not None:
+                current_item_realtime.pop('_id')
+                if record_realtime != current_item_realtime:
+                    self.collection_realtime_price.insert_one(record_realtime)
+            else:
+                self.collection_realtime_price.insert_one(record_realtime)
+
+            record_daily = item
+            current_item_daily = self.collection_daily_price.find_one(
+                {"area": record_daily["area"], "type": record_daily["type"],
+                 "website": record_daily["website"]},
+                sort=[("date_time", pymongo.DESCENDING)], limit=1)
+
+            if current_item_daily is not None:
+                last_item_daily = current_item_daily.copy()
+                id = current_item_daily.pop('_id')
+                if record_daily != current_item_daily:
+                    self.collection_daily_price.update_one({"_id": id}, {"$set": record_daily})
+            else:
+                self.collection_daily_price.insert_one(record_daily)
+
+            record_area = {
+                "area": item["area"],
+                "website": item["website"]
+            }
+            current_area = self.collection_area.find_one(record_area)
+            if current_area is None:
+                self.collection_area.insert_one(record_area)
+
+            record_type_gold = {
+                "area": item["area"],
+                "type": item["type"],
+                "website": item["website"]
+            }
+            current_type = self.collection_type_gold.find_one(record_type_gold)
+
+            if current_type is None:
+                self.collection_type_gold.insert_one(record_type_gold)
         return item
-     
-    def putitemsintable(self,item):
-        self.curr.execute("""insert into prices values (?)""",(
-            item['Quote'][0],  # extracting item.
-        ))
-        self.conn.commit()
