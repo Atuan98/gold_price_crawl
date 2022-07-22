@@ -2,7 +2,7 @@ import os
 import time
 import schedule
 
-parent_dir = os.getcwd()
+
 def loop():
     os.system("python main.py")
 

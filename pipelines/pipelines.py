@@ -1,11 +1,10 @@
 import pymongo
 from scrapy.exceptions import DropItem
-
+from config import MONGO_DB_HOST
 
 class MongoDBPipeline(object):
-
     def __init__(self):
-        client = pymongo.MongoClient('localhost', 27017)
+        client = pymongo.MongoClient(MONGO_DB_HOST, 27017)
         crawl_db = client['gold_price']
         self.collection_daily_price = crawl_db["daily_price"]
         self.collection_area = crawl_db["area"]
@@ -20,8 +19,9 @@ class MongoDBPipeline(object):
                 raise DropItem("Missing {0}!".format(data))
         if valid:
             record_realtime = item
-            current_item_realtime = self.collection_realtime_price.find_one({"area": record_realtime["area"], "type": record_realtime["type"],
-                                                                      "website": record_realtime["website"]},
+            current_item_realtime = self.collection_realtime_price.find_one({"area": record_realtime["area"],
+                                                                             "type": record_realtime["type"],
+                                                                            "website": record_realtime["website"]},
                                                                      sort= [("date_time", pymongo.DESCENDING)], limit = 1)
             if current_item_realtime is not None:
                 current_item_realtime.pop('_id')
@@ -32,14 +32,17 @@ class MongoDBPipeline(object):
 
             record_daily = item
             current_item_daily = self.collection_daily_price.find_one(
-                {"area": record_daily["area"], "type": record_daily["type"],
+                {"area": record_daily["area"],
+                 "type": record_daily["type"],
                  "website": record_daily["website"]},
                 sort=[("date_time", pymongo.DESCENDING)], limit=1)
 
             if current_item_daily is not None:
                 last_item_daily = current_item_daily.copy()
-                id = current_item_daily.pop('_id')
-                if record_daily != current_item_daily:
+                if "_id" in record_daily.keys():
+                    record_daily.pop("_id")
+                id = last_item_daily.pop('_id')
+                if record_daily != last_item_daily:
                     self.collection_daily_price.update_one({"_id": id}, {"$set": record_daily})
             else:
                 self.collection_daily_price.insert_one(record_daily)

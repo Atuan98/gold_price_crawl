@@ -2,6 +2,7 @@ from scrapy.crawler import CrawlerProcess
 from scrapy.spiders import XMLFeedSpider
 from spiders.mapping_data import get_area_name_code, get_type_gold_code
 import time
+import scrapy
 from datetime import datetime
 
 
@@ -19,6 +20,7 @@ class SjcGoldSpider(XMLFeedSpider):
         return int(txt.replace('.', ''))
 
     def parse_node(self, response, selector):
+        print('SJC')
         update_time = selector.xpath("@updated").get()
         update_time = datetime.strptime(update_time.strip(), '%I:%M:%S %p %d/%m/%Y')
         print(update_time)
@@ -36,3 +38,6 @@ class SjcGoldSpider(XMLFeedSpider):
                     'website': self.allowed_domains[0]
                 }
                 yield record
+            time.sleep(5)
+            yield scrapy.Request(f"https://sjc.com.vn/xml/tygiavang.xml?t={int(time.time() * 1000)}",
+                                  callback=self._parse)
