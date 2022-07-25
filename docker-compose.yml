@@ -1,0 +1,33 @@
+version: '3.3'
+
+services:
+  mongo:
+    image: repo.vps.com.vn:8082/proxy/library/mongo
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=igold
+      - MONGO_INITDB_ROOT_PASSWORD=ZSE45rdx
+    volumes:
+      - ./data/mongo:/data/db
+  crawler:
+    build: crawler
+    restart: always
+    environment:
+      - MONGO_DB_HOST=mongo
+#      - MONGO_DB_PORT=27017
+      - MONGO_DB_USERNAME=igold
+      - MONGO_DB_PASSWORD=ZSE45rdx
+      - LOOP_TIMEOUT=60
+    volumes:
+      - ./logs/crawler:/app/logs
+  api:
+    build: api
+    restart: unless-stopped
+    environment:
+      - configuration.path=/app/resources
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ./logs/api:/app/logs
+

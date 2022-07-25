@@ -1,10 +1,15 @@
 from fastapi import FastAPI
 import pymongo
-from typing import Union
+from typing import Union, Optional
 import datetime
+from datetime import datetime
+from config import MONGO_DB_HOST, MONGO_DB_PORT, MONGO_DB_USERNAME, MONGO_DB_PASSWORD
+from urllib.parse import quote_plus
+
 
 app = FastAPI()
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+uri = "mongodb://%s:%s@%s" % (quote_plus(MONGO_DB_USERNAME), quote_plus(MONGO_DB_PASSWORD), MONGO_DB_HOST)
+myclient = pymongo.MongoClient(uri)
 myDB = myclient["gold_price"]
 
 
@@ -43,7 +48,7 @@ def get_list_area():
         }
 
 
-@app.get('/get_list_types/{area}')
+@app.get('/get_list_types/')
 def get_list_types(area):
     if area.isupper() is not True:
         return {
@@ -70,115 +75,114 @@ def get_list_types(area):
         }
 
 
-@app.get('/get_daily_price/{from_date}/{to_date}')
-def get_daily_price(from_date: Union[str, None], to_date: Union[str, None], area: Union[str, None] = None, type_: Union[str, None] = None):
-        myCollection = myDB["daily_price"]
-        data_resp = []
-        final_data_resp = []
-        from_date = datetime.datetime.strptime(from_date, '%d%m%Y')
-        to_date = datetime.datetime.strptime(to_date, '%d%m%Y')
-        to_date += datetime.timedelta(days=1)
-        # original_query = {"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()},
-        #                   "area": area,
-        #                   "type": type_}
+@app.get('/get_daily_price/')
+def get_daily_price(from_date: Union[str, None], to_date: Union[str, None], type_: Union[str, None] = None,
+                    area: Union[str, None] = None):
+    myCollection = myDB["daily_price"]
+    data_resp = []
+    final_data_resp = []
+    from_date = datetime.datetime.strptime(from_date, '%d%m%Y')
+    to_date = datetime.datetime.strptime(to_date, '%d%m%Y')
+    to_date += datetime.timedelta(days=1)
+    filters = {'date_time': {'$gte': from_date, '$lte': to_date}}
 
-        if type_ and area:
-            for data in myCollection.find({"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()},
-                                           "area": area,
-                                           "type": type_}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+    if type_ and area:
+        filters['area'] = area
+        filters['type'] = type_
+        for data in myCollection.find(filters):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
 
-            return {
-                'data': final_data_resp,
-            }
+        return {
+            'data': final_data_resp,
+        }
 
-        if type_ and not area:
-            for data in myCollection.find(
-                    {"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()}, "type": type_}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+    elif type_ and not area:
+        filters['type'] = type_
+        for data in myCollection.find(filters):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
 
-            return {
-                'data': final_data_resp,
-            }
+        return {
+            'data': final_data_resp,
+        }
 
-        if area and not type_:
-            for data in myCollection.find(
-                    {"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()}, "area": area}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+    elif area and not type_:
+        filters['area'] = area
+        for data in myCollection.find(filters):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
 
-            return {
-                'data': final_data_resp,
-            }
+        return {
+            'data': final_data_resp,
+        }
 
-        if type_ is None and area is None:
-            for data in myCollection.find(
-                    {"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()}}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+    else:
+        for data in myCollection.find({'date_time': {'$gte': from_date, '$lte': to_date}}):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
-
-            return {
-                'data': final_data_resp,
-            }
+        return {
+            'data': final_data_resp,
+        }
 
 
-@app.get('/get_realtime_price/{from_date}/{to_date}')
+@app.get('/get_realtime_price/')
 def get_realtime_price(from_date: Union[str, None], to_date: Union[str, None], type_: Union[str, None] = None):
-        myCollection = myDB["realtime_price"]
-        data_resp = []
-        final_data_resp = []
-        from_date = datetime.datetime.strptime(from_date, '%d%m%Y')
-        to_date = datetime.datetime.strptime(to_date, '%d%m%Y')
-        to_date += datetime.timedelta(days=1)
+    myCollection = myDB["realtime_price"]
+    data_resp = []
+    final_data_resp = []
+    from_date = datetime.datetime.strptime(from_date, '%d%m%Y')
+    to_date = datetime.datetime.strptime(to_date, '%d%m%Y')
+    to_date += datetime.timedelta(days=1)
 
-        if type_:
-            for data in myCollection.find({"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()},
-                                           "type": type_}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+    filters = {'date_time': {'$gte': from_date, '$lte': to_date}}
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
+    if type_:
+        filters['type'] = type_
+        for data in myCollection.find(filters):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
 
-            return {
-                'data': final_data_resp,
-            }
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
 
-        else:
-            for data in myCollection.find(
-                    {"date_time": {"$gte": from_date.isoformat(), "$lte": to_date.isoformat()}}):
-                remove_keys = ["_id"]
-                resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
-                data_resp.append(resp)
+        return {
+            'data': final_data_resp,
+        }
 
-            for data in data_resp:
-                if data not in final_data_resp:
-                    final_data_resp.append(data)
+    else:
+        for data in myCollection.find(filters):
+            remove_keys = ["_id"]
+            resp = {remove_key: data[remove_key] for remove_key in data if remove_key not in remove_keys}
+            data_resp.append(resp)
 
-            return {
-                'data': final_data_resp,
-            }
+        for data in data_resp:
+            if data not in final_data_resp:
+                final_data_resp.append(data)
+
+        return {
+            'data': final_data_resp,
+        }
+

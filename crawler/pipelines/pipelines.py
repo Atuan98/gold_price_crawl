@@ -1,10 +1,13 @@
 import pymongo
 from scrapy.exceptions import DropItem
-from config import MONGO_DB_HOST
+from config import MONGO_DB_HOST, MONGO_DB_PORT, MONGO_DB_USERNAME, MONGO_DB_PASSWORD
+from urllib.parse import quote_plus
 
 class MongoDBPipeline(object):
     def __init__(self):
-        client = pymongo.MongoClient(MONGO_DB_HOST, 27017)
+        uri = "mongodb://%s:%s@%s" % (
+            quote_plus(MONGO_DB_USERNAME), quote_plus(MONGO_DB_PASSWORD), MONGO_DB_HOST)
+        client = pymongo.MongoClient(uri)
         crawl_db = client['gold_price']
         self.collection_daily_price = crawl_db["daily_price"]
         self.collection_area = crawl_db["area"]

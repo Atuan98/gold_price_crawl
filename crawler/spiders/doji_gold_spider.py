@@ -3,8 +3,6 @@ from scrapy.selector import Selector
 import re
 from spiders.mapping_data import get_area_name_code, get_type_gold_code
 from datetime import datetime
-import scrapy
-import time
 
 class DojiGoldSpider(Spider):
     FEEDD_EXPORT_ENCODING = 'utf-8'
@@ -14,11 +12,13 @@ class DojiGoldSpider(Spider):
             "http://giavang.doji.vn/",
         ]
 
+    def parse(self, response):
+        self.logger.info('Parse function called on %s', response.url)
+
     def number(self, txt):
         return int(txt.replace(',', ''))
 
     def parse(self, response):
-        print('DOJI')
         ant_home = Selector(response).xpath("//*[@class = 'ant-home-price']")
         update_time = ant_home.xpath("//p/span[contains(@class, 'update-time')]/text()").get()
         update_time = ' '.join(re.findall("(\d{2}:\d{2})\s(\d{2}\/\d{2}\/\d{4})", update_time)[0])
@@ -53,5 +53,3 @@ class DojiGoldSpider(Spider):
                 'website': self.allowed_domains[0]
             }
             yield record
-        time.sleep(5)
-        yield scrapy.Request("http://giavang.doji.vn/", callback=self.parse, dont_filter=True)

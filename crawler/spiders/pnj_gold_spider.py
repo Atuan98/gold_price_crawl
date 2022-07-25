@@ -2,8 +2,7 @@ from scrapy import Spider
 from scrapy.selector import Selector
 from spiders.mapping_data import get_area_name_code, get_type_gold_code
 from datetime import datetime
-import scrapy
-import time
+
 
 class PnjGoldSpider(Spider):
     FEED_EXPORT_ENCODING = 'utf-8'
@@ -17,7 +16,6 @@ class PnjGoldSpider(Spider):
         return int(txt.replace('.', ''))
 
     def parse(self, response):
-        print('PNJ')
         portlet = Selector(response).xpath("//*[starts-with(@id, 'portlet_com_pnj_gold_price_web_ViewGoldPricePortlet_INSTANCE')]")
         rows = portlet.xpath('.//table/tbody/tr')
 
@@ -52,5 +50,3 @@ class PnjGoldSpider(Spider):
                 'website': self.allowed_domains[0]
             }
             yield record
-        time.sleep(5)
-        yield scrapy.Request("https://giavang.pnj.com.vn", callback=self.parse, dont_filter=True)
